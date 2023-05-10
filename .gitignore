@@ -1,5 +1,5 @@
 # Authentication files
-authentication.py
+authentication
 
 #Virtual Enviroment
 venv/
