@@ -4,9 +4,11 @@ import requests
 # Import the datetime module to work with dates and times
 from datetime import datetime
 
-# Set the username and token for authentication with the Pixela API
-USERNAME = 'akipet'
-TOKEN = 'ajkshdflaskdf7s23422haf8sd4'
+from authentication import authentication
+
+TOKEN = authentication.Auth.TOKEN
+USERNAME = authentication.Auth.USERNAME
+
 
 # Set the base URL for the Pixela API
 pixela_endpoint = "https://pixe.la/v1/users"
